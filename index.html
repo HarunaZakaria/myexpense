@@ -13,10 +13,10 @@
     <title>My Expense</title>
   </head>
   <body>
-    <div class="container">
+    <div class="container-main">
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Expense Tracker</a>
+        <div class="container">
+          <a class="navbar-brand logo" href="#">Expense Tracker</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -26,14 +26,12 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon navbar-dark"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
-                  >New Expense</a
-                >
+                <a class="nav-link" aria-current="page" href="#">New Expense</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Sign In</a>
@@ -49,16 +47,20 @@
         <main>
           <div class="btns">
             <div class="add-btn">
-              <button class="btn btn-primary add">Add Expense</button>
+              <button class="btn btn-primary btn-lg add">Add Expense</button>
             </div>
             <div class="view-btn">
-              <button class="btn btn-outline-primary view">View Expense</button>
+              <button class="btn btn-outline-primary btn-lg view">
+                View Expense
+              </button>
             </div>
           </div>
         </main>
       </section>
       <section class="footer-section">
-        <footer>copyright 2026 Expense Tracter. All rights reserved</footer>
+        <footer class="footer">
+          copyright 2026 Expense Tracter. All rights reserved
+        </footer>
       </section>
     </div>
     <!-- bootstrap script -->
