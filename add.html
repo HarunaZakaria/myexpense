@@ -9,15 +9,22 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
     <title>My Expense</title>
   </head>
   <body>
-    <h1>Add an expense here</h1>
+    <h1 class="add-exp-header">Add a new expense here</h1>
     <div>
       <form id="expForm">
-        <input type="text" name="itemName" placeholder="Item Name" />
-        <input type="number" name="price" placeholder="Ghc" />
-        <button type="submit" class="btn btn-outline-primary">Add</button>
+        <div>
+          <input type="text" name="itemName" placeholder="Item Name" />
+        </div>
+        <div>
+          <input type="number" name="price" placeholder="Ghc" />
+        </div>
+        <div>
+          <button type="submit" class="btn btn-outline-primary add">Add</button>
+        </div>
       </form>
     </div>
     <ul class="list-container"></ul>
