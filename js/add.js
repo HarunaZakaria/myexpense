@@ -18,6 +18,7 @@ form.addEventListener("submit", (event) => {
   newExpenses.forEach((expense) => {
     const li = document.createElement("li");
     li.textContent = expense;
+    li.classList.add("exp-list");
     listContainer.appendChild(li);
   });
 });
