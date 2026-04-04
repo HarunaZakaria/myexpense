@@ -1,3 +1,25 @@
 body {
-  background-color: darkseagreen;
+  background-color: #fff;
+  --primary-color: #000080;
+}
+.btns {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.add {
+  margin-bottom: 25px;
+}
+.add{
+  margin-top: 25px;
+}
+@media (max-width: 768px) {
+  body {
+    /* color: #ffffff;
+    color: #708090;
+    color: #d3d3d3; */
+    font-size: 14px;
+  }
 }
