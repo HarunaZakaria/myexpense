@@ -20,7 +20,7 @@ form.addEventListener("submit", (event) => {
     const hr = document.createElement("hr");
     li.textContent = expense;
     li.classList.add("exp-list");
-    hr.classList.add("exp-list");
+    hr.classList.add("exp-list-hr");
     listContainer.appendChild(li);
     listContainer.appendChild(hr);
   });
