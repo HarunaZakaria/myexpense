@@ -1,6 +1,7 @@
 // Select buttons from html
 const viewBtn = document.querySelector(".view");
 const addBtn = document.querySelector(".add");
+const signup = document.querySelector(".signup");
 // Move to add expenses page
 viewBtn.addEventListener("click", function (e) {
   window.location.href = "view.html";
@@ -9,7 +10,11 @@ viewBtn.addEventListener("click", function (e) {
 addBtn.addEventListener("click", function (e) {
   window.location.href = "add.html";
 });
+//Move to Sign up page
 
+signup.addEventListener("click", function (e) {
+  window.location.href = "signup.html";
+});
 //change the year
 const year = document.querySelector(".year");
 const newYear = new Date().getFullYear();
