@@ -10,3 +10,9 @@ addBtn.addEventListener("click", function (e) {
   window.location.href = "add.html";
 });
 
+//change the year
+const year = document.querySelector(".year");
+const newYear = new Date().getFullYear();
+const p = document.createElement("p");
+p.textContent = newYear;
+year.appendChild(p);
