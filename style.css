@@ -2,6 +2,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  --primary-color: #0d6efd;
+  --secondary-color: #fd9c0d;
+  --deep-primary-color: #0257d5;
 }
 body {
   background-color: #fff;
@@ -14,6 +17,23 @@ body {
 .navbar-toggler-icon {
   color: #fff;
 }
+/* appended list section*/
+.list-container {
+  background-color: var(--primary-color);
+}
+.exp-list {
+  color: #fff;
+  opacity: 80%;
+  padding-top: 15px;
+}
+input {
+  margin: 10px 0;
+  border: var(--primary-color) solid 2px;
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+}
+/* Footer section */
 .footer {
   text-align: center;
 }
@@ -23,7 +43,7 @@ body {
     font-size: 14px;
   }
   .container {
-    background-color: blue;
+    background-color: var(--primary-color);
     height: 200px;
     color: #fff;
     border-bottom-left-radius: 15px;
@@ -45,30 +65,27 @@ body {
   }
   .add {
     margin-bottom: 25px;
-  }
-  .add {
     margin-top: 25px;
+    background-color: var(--secondary-color);
+    color: #fff;
+    width: 150px;
   }
   /* appended list */
-  .exp-list {
-    background-color: red;
+  .exp-list-hr {
+    color: #fff;
   }
   .add-exp-header {
     text-align: center;
     padding: 30px 0;
   }
+  .list-container {
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
   #expForm {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-  input {
-    margin: 10px 0;
-    border: blue solid 2px;
-    width: 250px;
-    padding: 10px;
-  }
-  .add{
-    width: 150px;
   }
 }
