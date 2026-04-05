@@ -43,6 +43,7 @@ input {
   justify-content: center;
   gap: 5px;
 }
+/* Signup Section */
 
 @media (max-width: 768px) {
   body {
@@ -93,5 +94,25 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  /* Signup Section */
+  .signup-heading{
+    text-align: center;
+    padding-top: 100px;
+  }
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
+  .signup-btn{
+    width: 150px;
+    padding: 8px 0;
+    color: #fff;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 10px;
   }
 }
