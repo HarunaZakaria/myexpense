@@ -17,8 +17,11 @@ form.addEventListener("submit", (event) => {
 
   newExpenses.forEach((expense) => {
     const li = document.createElement("li");
+    const hr = document.createElement("hr");
     li.textContent = expense;
     li.classList.add("exp-list");
+    hr.classList.add("exp-list");
     listContainer.appendChild(li);
+    listContainer.appendChild(hr);
   });
 });
