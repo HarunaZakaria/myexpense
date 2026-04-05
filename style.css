@@ -44,7 +44,10 @@ input {
   gap: 5px;
 }
 /* Signup Section */
-
+.a-signin {
+  text-align: center;
+  opacity: 80%;
+}
 @media (max-width: 768px) {
   body {
     font-size: 14px;
@@ -96,7 +99,7 @@ input {
     align-items: center;
   }
   /* Signup Section */
-  .signup-heading{
+  .signup-heading {
     text-align: center;
     padding-top: 100px;
   }
@@ -107,7 +110,7 @@ input {
     align-items: center;
     height: 60vh;
   }
-  .signup-btn{
+  .signup-btn {
     width: 150px;
     padding: 8px 0;
     color: #fff;
