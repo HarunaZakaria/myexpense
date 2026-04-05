@@ -36,6 +36,12 @@ input {
 /* Footer section */
 .footer {
   text-align: center;
+  padding: 15px 0;
+  opacity: 50%;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
 }
 
 @media (max-width: 768px) {
