@@ -14,10 +14,28 @@ body {
   color: #fff;
   opacity: 50%;
 }
-
-.navbar-toggler-icon {
+.navbar-toggler {
   color: #fff;
 }
+.nav-link {
+  color: #fff;
+  opacity: 50%;
+}
+.container {
+  background-color: var(--primary-color);
+  height: 200px;
+  color: #fff;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  width: 100vw;
+}
+.add {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    background-color: var(--secondary-color);
+    color: #fff;
+    width: 150px;
+  }
 /* appended list section*/
 .list-container {
   background-color: var(--primary-color);
@@ -52,15 +70,22 @@ input {
 /* ============================= */
 /* 📱 MEDIA QUERIES FOR TABLET */
 /* ============================= */
-@media (max-width: 1024px) {
+@media (min-width: 768px) {
   body {
-    background-color: #0257d5;
+    font-size: 18px;
+  }
+  .btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+    height: 100vh;
   }
 }
 /* ============================= */
 /* 🖥️ MEDIA QUERIES FOR LAPTOP */
 /* ============================= */
-@media (max-width: 1280px) {
+@media (min-width: 1024px) {
   body {
     background-color: red;
   }
@@ -71,20 +96,7 @@ input {
   body {
     font-size: 14px;
   }
-  .container {
-    background-color: var(--primary-color);
-    height: 200px;
-    color: #fff;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-  }
-  .navbar-toggler {
-    color: #fff;
-  }
-  .nav-link {
-    color: #fff;
-    opacity: 50%;
-  }
+
   .btns {
     height: 90vh;
     display: flex;
@@ -92,13 +104,7 @@ input {
     flex-direction: column;
     align-items: center;
   }
-  .add {
-    margin-bottom: 25px;
-    margin-top: 25px;
-    background-color: var(--secondary-color);
-    color: #fff;
-    width: 150px;
-  }
+  
   /* appended list */
   .exp-list-hr {
     color: #fff;
